@@ -254,6 +254,8 @@
   .proof-grid p { font-size: 16px; color: #2c473a; }
   .proof-grid p + p { margin-top: 13px; }
   .repo-line { display: flex; align-items: center; gap: 14px; margin-top: 22px; flex-wrap: wrap; }
+  .repo-note { font-size: 14.5px; color: #2c473a; background: var(--lime-soft); border: 1px solid #c7e98f; border-radius: 12px; padding: 11px 16px; }
+  .repo-note code { background: #0e251c; color: var(--lime); padding: 1px 7px; border-radius: 6px; font-size: 12.5px; }
   .btn-dark {
     display: inline-flex; align-items: center; gap: 8px;
     background: var(--forest); color: #fff; font-weight: 700; font-size: 14px;
@@ -507,8 +509,7 @@
         <p><b>I don't just plan the moat, I've built it.</b> The unified per-entity view this plan needs, stitched from systems that don't talk, used to pick the next move, runs today with zero API keys.</p>
         <p>Pointed at Clubhaus: entity = a <b>course</b> (or golfer); sources = Stripe, ordering, promo, Clubhaus Rating, Calendly, Attio; gate = enough coverage to act; output = a re-activation play, GM sequence, or SMS win-back, <b>human-approved, never auto-sent.</b></p>
         <div class="repo-line">
-          <a class="btn-dark" href="https://github.com/jagrut70/gtm-outbound-prototype" target="_blank" rel="noopener">View the repo on GitHub &rarr;</a>
-          <span class="codechip">npm run demo</span>
+          <span class="repo-note">The engine lives in a private repo. I'd be glad to give you a live walkthrough or share access, it runs with zero keys (<code>npm run demo</code>).</span>
         </div>
       </div>
 
